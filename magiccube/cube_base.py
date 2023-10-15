@@ -9,11 +9,11 @@ class CubeException(Exception):
 class Face(Enum):
     """Representation of a Cube Face"""
     L=0
-    R=1
-    D=2
-    U=3
-    B=4
-    F=5
+    R=4
+    D=3
+    U=1
+    B=5
+    F=2
 
     def get_axis(self)->int:
         """Return axis of movement (x=0, y=1, z=2)"""
